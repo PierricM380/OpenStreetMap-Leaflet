@@ -1,4 +1,4 @@
-var myMap = L.map('myMap').setView([42.7452716, 2.9191579], 13);
+let myMap = L.map('myMap').setView([42.72300, 2.61385], 13);
 
 // Tile layer
 L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -7,5 +7,7 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 20
 }).addTo(myMap);
 
-// Add PIN
-L.marker([42.7452716, 2.9191579]).addTo(myMap)
+// Display marker with his popup
+L.marker([42.7163277, 2.6078925]).addTo(myMap)
+    .bindPopup('Randonnée Beles Pic Aubeuil')
+    .openPopup();
