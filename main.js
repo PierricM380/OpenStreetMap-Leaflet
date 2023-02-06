@@ -9,5 +9,5 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 // Display marker with his popup
 L.marker([42.7163277, 2.6078925]).addTo(myMap)
-    .bindPopup('Randonnée Beles Pic Aubeuil')
+    .bindPopup('Randonnée Belesta - Pic Aubeuil')
     .openPopup();
